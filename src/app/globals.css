@@ -1,4 +1,26 @@
 @import 'tailwindcss';
 
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* 1rem = 10px */
+}
 body {
+  font-size: 16px; /* 10px */
+  line-height: 1.5;
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #333333; /* ダークグレーにすることで目に優しい */
+  font-family: 'Roboto', sans-serif; /* Webフォントやシステムフォントを設定 */
+  text-rendering: optimizeLegibility; /* フォントのレンダリング精度を最適化 */
+  word-wrap: break-word; /* 単語が長すぎる場合に折り返し */
+  overflow-wrap: break-word; /* 長すぎる単語を改行して折り返す */
+  letter-spacing: 0.02em; /* 文字間隔を微調整 */
 }
