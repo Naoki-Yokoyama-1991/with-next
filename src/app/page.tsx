@@ -1,13 +1,29 @@
+import * as Top from '@/components/index';
+
 // app/page.tsx
 export default function HomePage() {
   return (
-    <div
-      className='h-screen bg-cover bg-center'
-      style={{ backgroundImage: 'url(/images/mv_ph01.webp)' }}
-    >
-      <div className='flex items-center justify-center h-full bg-black opacity-10'>
-        <h1 className='text-white text-5xl'>ウェブサイトへようこそ</h1>
-      </div>
+    <div>
+      <Top.MainVisual />
+      <Top.Concept />
+      <Top.Reason />
+      <Top.Price />
+      <Top.Helpful />
+      <Top.FamilyFuneral />
+      <Top.CustomerInterview />
+      <Top.FindArea />
+      <Top.FuneralCase />
+      <Top.CrematoriumInformation />
+      <Top.Staff />
+      <Top.FuneralFlow />
+      <Top.Support />
+      <Top.Feature />
+      <Top.CM />
+      <Top.NewInformation />
+      <Top.InformationList />
+      <Top.Question />
+      <Top.Company />
+      <Top.RequestDocument />
     </div>
   );
 }

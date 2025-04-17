@@ -1,8 +1,8 @@
 // app/layout.tsx
 import './globals.css';
 import { ReactNode } from 'react';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
+import Header from '../components/Layout/Header';
+import Footer from '../components/Layout/Footer';
 
 export const metadata = {
   title: 'WITH HOUSE',
@@ -11,10 +11,10 @@ export const metadata = {
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
-    <html lang='ja'>
-      <body className='flex flex-col min-h-screen'>
+    <html lang="ja">
+      <body className="flex min-h-screen flex-col">
         <Header />
-        <main className='flex-1 p-6'>{children}</main>
+        <main className="flex-1 p-6">{children}</main>
         <Footer />
       </body>
     </html>

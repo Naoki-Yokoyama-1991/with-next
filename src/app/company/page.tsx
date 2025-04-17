@@ -1,4 +1,4 @@
-// app/blog/page.tsx
-export default function BlogPage() {
-  return <main>Company</main>;
+// app/event/page.tsx
+export default function EventPage() {
+  return <main>私たちについて</main>;
 }
